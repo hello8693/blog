@@ -1,0 +1,55 @@
+# Fluid 主题配置覆盖（参考：https://github.com/fluid-dev/hexo-theme-fluid）
+
+favicon: /img/logo.svg
+apple_touch_icon: /img/logo.svg
+
+navbar:
+  blog_title: "Hello8693"
+  menu:
+    - { key: "home", link: "/" }
+    - { key: "archives", link: "/archives/" }
+    - { key: "categories", link: "/categories/" }
+    - { key: "tags", link: "/tags/" }
+    - { key: "about", link: "/about/" }
+
+index:
+  banner_img: /img/bing-hero.jpg
+  banner_img_height: 80
+  banner_mask_alpha: 0.35
+  slogan:
+    enable: true
+    text: "写点有趣的技术与生活"
+
+post:
+  banner_img: /img/bing-hero.jpg
+  banner_mask_alpha: 0.35
+
+page:
+  banner_img: /img/bing-hero.jpg
+  banner_mask_alpha: 0.35
+
+about:
+  enable: true
+  banner_img: /img/bing-hero.jpg
+  banner_mask_alpha: 0.35
+  avatar: https://avatars.githubusercontent.com/Hello8693
+  name: "Hello8693"
+  intro: "Hello8693，记录技术、产品与生活。邮箱 hello8693@hello8693.xyz | QQ 1320998105"
+
+social:
+  enable: true
+  github:
+    icon: "iconfont icon-github"
+    link: "https://github.com/Hello8693"
+  email:
+    icon: "iconfont icon-email"
+    link: "mailto:hello8693@hello8693.xyz"
+  qq:
+    icon: "iconfont icon-qq"
+    link: "tencent://message/?uin=1320998105&Site=&Menu=yes"
+
+custom_js:
+  - /js/bing-hero.js
+
+custom_css:
+  - /css/custom.css
