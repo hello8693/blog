@@ -3,7 +3,7 @@
   if (!banner) return;
 
   const mkt = 'zh-CN';
-  const api = `https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=${mkt}`;
+  const api = `https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&uhd=1&mkt=${mkt}`;
 
   fetch(api)
     .then((res) => res.json())

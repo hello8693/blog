@@ -7,7 +7,7 @@ const outFile = path.join(targetDir, 'bing-hero.jpg');
 const metaFile = path.join(targetDir, 'bing-hero.json');
 
 const mkt = process.env.BING_MKT || 'zh-CN';
-const api = `https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&mkt=${mkt}`;
+const api = `https://www.bing.com/HPImageArchive.aspx?format=js&idx=0&n=1&uhd=1&mkt=${mkt}`;
 
 const apiRes = await fetch(api);
 if (!apiRes.ok) {
