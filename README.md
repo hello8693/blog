@@ -15,8 +15,7 @@ pnpm server
 
 - `COS_SECRET_ID`
 - `COS_SECRET_KEY`
-- `COS_BUCKET`
-- `COS_REGION`
+（`bucket` 与 `region` 已在 `/_config.yml` 中配置）
 
 本仓库已内置 GitHub Actions 工作流，推送到 `main` 会自动部署。
 

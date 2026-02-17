@@ -13,7 +13,7 @@ timezone: Asia/Shanghai
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: https://blog.hello8693.xyz
+url: https://hello8693.xyz
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -102,8 +102,8 @@ theme: fluid
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: cos
-  # 以下配置建议使用环境变量提供（用于 GitHub Actions Secrets）
-  # secretId: $COS_SECRET_ID
-  # secretKey: $COS_SECRET_KEY
-  # bucket: $COS_BUCKET
-  # region: $COS_REGION
+  # Secret 建议使用环境变量提供（用于 GitHub Actions Secrets）
+  secretId: $COS_SECRET_ID
+  secretKey: $COS_SECRET_KEY
+  bucket: hello8693-blog-1306041707
+  region: ap-shanghai
