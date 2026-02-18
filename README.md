@@ -17,6 +17,8 @@ pnpm server
 - `COS_SECRET_KEY`
 （`bucket` 与 `region` 已在 `/_config.yml` 中配置）
 
+注意：`hexo-deployer-cos` 环境变量优先级低于 `/_config.yml`，因此不要在配置里写 `secretId/secretKey`，否则会被当作字面量字符串。
+
 本仓库已内置 GitHub Actions 工作流，推送到 `main` 会自动部署。
 
 ## 必应每日背景图
