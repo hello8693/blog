@@ -35,7 +35,7 @@ jobs:
         run: pnpm install
 
       - name: Fetch Bing daily image
-        run: node scripts/fetch-bing-hero.mjs
+        run: node scripts/fetch-bing-hero.js
         env:
           BING_MKT: zh-CN
 

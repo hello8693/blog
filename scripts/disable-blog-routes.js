@@ -1,5 +1,5 @@
 hexo.extend.filter.register('after_generate', () => {
-  const removePrefixes = ['tags/', 'categories/', 'archives/', 'blog/'];
+  const removePrefixes = ['tags/', 'categories/', 'archives/', 'blog/', '_moments/'];
 
   hexo.route.list().forEach((route) => {
     if (removePrefixes.some((prefix) => route.startsWith(prefix))) {

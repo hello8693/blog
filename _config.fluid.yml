@@ -8,6 +8,7 @@ navbar:
   menu:
     - { key: "home", link: "/" }
     - { key: "about", link: "/about/" }
+    - { name: "动态", link: "/moments/" }
 
 index:
   banner_img: /img/bing-hero.jpg
