@@ -38,6 +38,8 @@ about:
   avatar: /img/hello8693.png
   name: "Hello8693"
   intro: "Hello8693。邮箱 hello8693@hello8693.xyz | QQ 1320998105"
+  icons:
+    - { class: "iconfont icon-github-fill", link: "https://github.com/Hello8693", tip: "GitHub" }
 
 social:
   enable: true
