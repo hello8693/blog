@@ -66,3 +66,6 @@ footer:
   beian:
     enable: true
     icp_text: 鲁ICP备2022013359号-1
+    police_text: ''
+    police_code: ''
+    police_icon: ''
