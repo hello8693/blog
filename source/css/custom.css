@@ -10,3 +10,11 @@
 #banner .slogan {
   text-shadow: 0 4px 24px rgba(0, 0, 0, 0.35);
 }
+
+li.task-list-item {
+  list-style-type: none;
+}
+
+li.task-list-item .task-list-item-checkbox {
+  margin: 0 0.2em 0.25em -1.6em;
+}

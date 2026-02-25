@@ -4,12 +4,9 @@ favicon: /img/logo.svg
 apple_touch_icon: /img/logo.svg
 
 navbar:
-  blog_title: "Hello8693"
+  blog_title: "大象的小宇宙"
   menu:
     - { key: "home", link: "/" }
-    - { key: "archives", link: "/archives/" }
-    - { key: "categories", link: "/categories/" }
-    - { key: "tags", link: "/tags/" }
     - { key: "about", link: "/about/" }
 
 index:
@@ -18,11 +15,15 @@ index:
   banner_mask_alpha: 0.35
   slogan:
     enable: true
-    text: "写点有趣的技术与生活"
+    text: "欢迎来到大象的小宇宙"
 
 post:
   banner_img: /img/bing-hero.jpg
   banner_mask_alpha: 0.35
+  math:
+    enable: true
+    specific: false
+    engine: katex
 
 page:
   banner_img: /img/bing-hero.jpg
@@ -32,9 +33,9 @@ about:
   enable: true
   banner_img: /img/bing-hero.jpg
   banner_mask_alpha: 0.35
-  avatar: https://avatars.githubusercontent.com/Hello8693
+  avatar: /img/hello8693.png
   name: "Hello8693"
-  intro: "Hello8693，记录技术、产品与生活。邮箱 hello8693@hello8693.xyz | QQ 1320998105"
+  intro: "Hello8693。邮箱 hello8693@hello8693.xyz | QQ 1320998105"
 
 social:
   enable: true
@@ -48,8 +49,16 @@ social:
     icon: "iconfont icon-qq"
     link: "tencent://message/?uin=1320998105&Site=&Menu=yes"
 
+links:
+  enable: false
+
 custom_js:
   - /js/bing-hero.js
 
 custom_css:
   - /css/custom.css
+
+footer:
+  beian:
+    enable: true
+    icp_text: 鲁ICP备2022013359号-1
