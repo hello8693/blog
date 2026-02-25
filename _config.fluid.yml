@@ -6,8 +6,7 @@ apple_touch_icon: /img/logo.svg
 navbar:
   blog_title: "大象的小宇宙"
   menu:
-    - { key: "home", link: "/" }
-    - { name: "文章", link: "/blog/" }
+    - { name: "文章", link: "/" }
     - { key: "about", link: "/about/" }
     - { name: "动态", link: "/moments/" }
     - { name: "友链", link: "/links/" }
