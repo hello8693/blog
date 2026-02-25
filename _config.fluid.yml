@@ -7,8 +7,10 @@ navbar:
   blog_title: "大象的小宇宙"
   menu:
     - { key: "home", link: "/" }
+    - { name: "文章", link: "/blog/" }
     - { key: "about", link: "/about/" }
     - { name: "动态", link: "/moments/" }
+    - { name: "友链", link: "/links/" }
 
 index:
   banner_img: /img/bing-hero.jpg
@@ -51,7 +53,8 @@ social:
     link: "tencent://message/?uin=1320998105&Site=&Menu=yes"
 
 links:
-  enable: false
+  enable: true
+  items: []
 
 custom_js:
   - /js/bing-hero.js
