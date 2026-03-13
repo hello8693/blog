@@ -26,6 +26,11 @@ post:
     enable: true
     specific: false
     engine: katex
+  copyright:
+    enable: true
+    # Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)
+    # See: https://creativecommons.org/licenses/by-nc-nd/4.0/
+    license: 'BY-NC-ND'
 
 page:
   banner_img: /img/bing-hero.jpg

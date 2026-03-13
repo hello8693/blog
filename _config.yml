@@ -128,6 +128,13 @@ ignore:
 ## Themes: https://hexo.io/themes/
 theme: fluid
 
+# hexo-math
+# See: https://github.com/hexojs/hexo-math
+math:
+  katex:
+    options:
+      throwOnError: false
+
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
