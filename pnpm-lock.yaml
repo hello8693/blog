@@ -10,7 +10,7 @@ importers:
     dependencies:
       '@renbaoshuo/markdown-it-katex':
         specifier: ^2.0.2
-        version: 2.0.2(katex@0.16.33)(markdown-it@14.1.1)
+        version: 2.0.2(katex@0.16.47)(markdown-it@14.1.1)
       hexo:
         specifier: ^8.0.0
         version: 8.1.1(chokidar@3.6.0)
@@ -48,8 +48,8 @@ importers:
         specifier: ^1.0.0
         version: 1.1.0
       katex:
-        specifier: ^0.16.33
-        version: 0.16.33
+        specifier: ^0.16.47
+        version: 0.16.47
       markdown-it:
         specifier: ^14.1.1
         version: 14.1.1
@@ -883,8 +883,8 @@ packages:
     resolution: {integrity: sha512-P2bSOMAc/ciLz6DzgjVlGJP9+BrJWu5UDGK70C2iweC5QBIeFf0ZXRvGjEj2uYgrY2MkAAhsSWHDWlFtEroZWw==}
     engines: {node: '>=0.6.0'}
 
-  katex@0.16.33:
-    resolution: {integrity: sha512-q3N5u+1sY9Bu7T4nlXoiRBXWfwSefNGoKeOwekV+gw0cAXQlz2Ww6BLcmBxVDeXBMUDQv6fK5bcNaJLxob3ZQA==}
+  katex@0.16.47:
+    resolution: {integrity: sha512-Eeo8Ys1doU1z+x8AZsPpQu+p/QcZBI5PeOo7QGQdy2x2m0MU/hYagBbGOmXwr5KVbEfVuWv9LpnQWeehogurjg==}
     hasBin: true
 
   kind-of@3.2.2:
@@ -1528,7 +1528,7 @@ packages:
 
   uuid@3.4.0:
     resolution: {integrity: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==}
-    deprecated: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+    deprecated: uuid@10 and below is no longer supported.  For ESM codebases, update to uuid@latest.  For CommonJS codebases, use uuid@11 (but be aware this version will likely be deprecated in 2028).
     hasBin: true
 
   vary@1.1.2:
@@ -1555,9 +1555,9 @@ snapshots:
 
   '@adobe/css-tools@4.3.3': {}
 
-  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.16.33)(markdown-it@14.1.1)':
+  '@renbaoshuo/markdown-it-katex@2.0.2(katex@0.16.47)(markdown-it@14.1.1)':
     dependencies:
-      katex: 0.16.33
+      katex: 0.16.47
       markdown-it: 14.1.1
 
   a-sync-waterfall@1.0.1: {}
@@ -2440,7 +2440,7 @@ snapshots:
       json-schema: 0.4.0
       verror: 1.10.0
 
-  katex@0.16.33:
+  katex@0.16.47:
     dependencies:
       commander: 8.3.0
 
